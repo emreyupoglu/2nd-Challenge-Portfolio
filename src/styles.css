@@ -1,0 +1,176 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+   background-color: rgb(154, 165, 167);
+   border: solid black 1px;
+
+
+}
+
+.hero {
+    background-color: rgb(0, 0, 52);
+    height: 50vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer {
+    height: 250px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+
+}
+
+li {
+    text-decoration: none;
+    
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 100px;
+
+}
+.button {
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: rgb(211, 255, 80);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300px;
+    padding-top: 5px;
+    margin-top: 20px;
+
+}
+
+.button:hover{
+    background-color: #ef744b;
+    
+}
+
+.button:active {
+    background-color: #a9a9a9;
+    color: #808880
+}
+
+.socials {
+    padding-bottom: 200px;
+}
+
+.image {
+    height: 300px;
+    margin: 30px;
+}
+
+.social {
+    margin:20px;
+
+
+}
+.sub-section {
+    display: flex;
+    justify-content:space-around;
+    padding: 80px;
+}
+
+
+.secondary-projects, .primary-projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondary-projects div{
+    margin: 15px;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    
+    align-items: center;
+}
+
+.primary-projects div {
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    background-image: url(https://cdn.mos.cms.futurecdn.net/qTmvroik2NtHVGsfCHyyxF-1200-80.jpg);
+    align-items: center;
+    background-size: cover;
+}
+ 
+#project1 {
+    background-image: url(https://hosstools.com/wp-content/uploads/2020/10/mini-belle-pepper-mix.jpg);
+    background-size: cover
+}
+#project2 {
+    background-image: url(https://images.unsplash.com/photo-1542840843-3349799cded6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c21hbGwlMjBzaXplfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    background-size: cover;
+}
+#project3 {
+    background-image: url(https://www.almanac.com/sites/default/files/styles/large/public/image_nodes/sweet-potatoes_ssbonnietaylorbarry.jpg?itok=N1mIe_v9);
+    background-size: cover;
+}
+
+#projects{ 
+    text-align: center;
+}
+
+
+.headshot {
+    width: 200px;
+    padding: 40px;
+    border-radius: 150px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
